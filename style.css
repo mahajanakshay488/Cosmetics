@@ -1,0 +1,328 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#bg{
+    height: 70%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-image: url(https://images.unsplash.com/photo-1562887085-d0aa7ff20b95?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1789&q=80);
+}
+#nav{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    color: rgb(209, 74, 119);
+    align-items: center;
+    padding: 0 50px;
+
+}
+#nav h3{
+     
+    font-weight: 300;
+    
+}
+#links button{
+    
+padding: 9px 17px;
+background-color: transparent;
+border: 1px solid rgb(209, 74, 119);
+margin-left: 10px;
+color: rgb(209, 74, 119);
+border-radius: 5px;
+outline: none;
+}
+#links button:hover{
+ cursor: pointer;
+ background-color: rgb(209, 74, 119);
+ color: #ffffff;
+ border-color: rgb(209, 74, 119);
+
+}
+#gradient{
+    width: 100%;
+
+    height: calc(100% - 60px);
+    background: linear-gradient(to right, rgba(233, 141, 171, 0.692), transparent);
+}
+#text{
+    width: 100%;
+    padding: 140px 60px;
+}
+#text h1{
+    font-weight: 400;
+    color:  rgb(224, 45, 105);
+    font-family: 'Montserrat';
+}
+#text input{
+    width: 30%;
+    border: none;
+    font-size: 18px;
+    padding: 15px 22px;
+    outline-color: rgb(151, 255, 250);
+
+}
+#text #inputs{
+display: flex;
+align-items: center;
+margin-top: 20px;
+}
+#inputs button{
+    margin-left: 20px;
+    padding: 15px 22px;
+    outline-color: rgb(209, 74, 119);
+    border: none;
+    border-radius: 5px;
+    background-color: #fff;
+    color: rgb(112, 67, 67);
+}
+#inputs input::placeholder{
+opacity: .7;
+}
+#arrivals{
+    width: 100%;
+min-height: 300px;
+}
+#container{
+    
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 50px;
+    min-height: 300px;
+}
+#container h1{
+    font-family: 'playFair Display';
+    color: rgb(212, 62, 112);
+}
+#container p{
+    font-weight: 400;
+    color: #999;
+    margin-top: 7px;
+    line-height: 22px;
+}
+#container #imgGraphic{
+    position: relative;
+    width: 100%;
+    height: 500px;
+}
+
+#container #imgGraphic img{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 500px;
+}
+#jwelery{
+    width: 100%;
+    min-height: 500px;
+    background-color: rgb(233, 134, 183);
+    padding: 20px 40px;
+    margin-top: 50px;
+   
+    line-height: 30px;
+}
+    
+#showcase{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 260px;
+    margin-top:40px;
+
+}
+.circleshowcase{
+    width: 260px;
+    height: 260px;
+    border: 20px solid #fff;
+    border-radius: 50%;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.404);
+    background-size: cover;
+}
+#onej{
+    background-image: url(j1.jpg);
+}
+#twoj{
+    background-image: url(j2.jpg);
+}
+#threej{
+    background-image: url(j3.jpg);
+}
+#fourj{
+    background-image: url(j4.jpg);
+}
+#jwelery #container1 p{
+    color: rgb(238, 238, 238);
+    font-weight: 170;
+}
+#jwelery #container1 h1{
+    color: rgb(202, 44, 97);
+}
+#offersection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 350px;
+    margin-top: 30px;
+    
+}
+
+#offersection h1{
+    width: 70%;
+    font-weight: 300;
+    color: rgb(201, 170, 84);
+
+}
+#offerinput{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+#offerinput input{
+    padding:15px;
+    width: 70%;
+    font-size: 20px;
+    background-color: rgb(199, 175, 108);
+    border: none;
+    outline: none;
+    color: #ffffff;
+}
+#offerinput button{
+    width: 28%;
+    height: 100%;
+    background-color: transparent;
+    border: 1.3px solid rgb(201, 170, 84);
+    border-radius: 3px;
+    color: rgb(201, 170, 84);
+}
+#offersection #offerinput  button:hover{
+    background-color: rgb(194, 169, 101);
+    color: #fff;
+    cursor: pointer;
+
+}
+#jwelery2{
+    width: 100%;
+    min-height: 500px;
+    background-color: rgb(197, 175, 113);
+    padding: 20px 40px;
+   
+    line-height: 30px;
+}
+#onew{
+    background-image: url(w1.jpg);
+}
+#twow{
+    background-image: url(w2.jpg);
+}
+#threew{
+    background-image: url(w3.jpg);
+}
+#fourw{
+    background-image: url(w4.jpg);
+}
+#jwelery2 #container2 p{
+    color: rgb(247, 247, 247);
+    font-weight: 170;
+}
+#jwelery2 #container2 h1{
+    color: rgb(160, 126, 31);
+}
+#footer{
+    width: 100%;
+    min-height: 300px;
+    background-color:  rgb(196, 174, 114);
+    padding: 30px 60px;
+}
+#footer h3{
+    font-family: 'PlayFair Display';
+    color: rgb(134, 106, 26);
+}
+#parentDivLinks{
+    display: flex;
+    justify-content: space-between;
+}
+#parentDivLinks #Links{
+    display: flex;
+    flex-direction: column;
+}
+#parentDivLinks #Links a{
+    margin-top: 20px;
+    text-decoration: none;
+    color: rgb(228, 228, 228);
+}
+#startingOverlay{
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    position: fixed;
+    z-index: 2;
+    left: 0;
+    top: 0;
+    animation: animateScreen 2s cubic-bezier(0.19, 1, 0.22, 1) 3s both;
+}
+
+#startingOverlay img{
+    position: absolute;
+    top: 50%;
+    width: 300px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    animation: logoAnimate 2s cubic-bezier(0.19, 1, 0.22, 1) 2s both;
+}
+
+#startingOverlay #line1{
+    position: absolute;
+    left: 20%;
+    width: 2px;
+    height: 100%;
+    background-color: rgb(143, 246, 229);
+    animation: lineAnimate 2s cubic-bezier(0.19, 1, 0.22, 1) 1s both;
+}
+
+#startingOverlay #line2{
+    position: absolute;
+    bottom: 0;
+    right: 20%;
+    width: 2px;
+    height: 100%;
+    background-color: rgb(143, 246, 229);
+    animation: lineAnimate 2s cubic-bezier(0.19, 1, 0.22, 1) 1s both;
+}
+@keyframes animateScreen{
+
+    from{
+        transform: translatey(0);
+    }
+    to{
+        transform: translatey(-100%);
+    }
+}
+@keyframes lineAnimate{
+    from{
+        height: 100%;
+    }
+    to{
+        height: 0;
+    }
+}
+
+@keyframes logoAnimate{
+    from{
+        transform: translate(-50%,-50%) scale(1);
+    }
+    to{
+        transform: translate(-50%,-50%) scale(0);
+    }
+}
